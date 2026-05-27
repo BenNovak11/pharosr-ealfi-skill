@@ -1,0 +1,28 @@
+{
+  "name": "pharos-realfi-skill",
+  "version": "0.1.0",
+  "description": "An Agent Skill for interacting with RealFi products on the Pharos Network — reads any ERC-4626 vault (RWA vaults, yield strategies, lending markets) and holder positions",
+  "type": "module",
+  "main": "scripts/check_realfi.js",
+  "scripts": {
+    "check": "node scripts/check_realfi.js"
+  },
+  "keywords": [
+    "pharos",
+    "agent-skill",
+    "realfi",
+    "rwa",
+    "erc-4626",
+    "vault",
+    "tokenized-assets",
+    "yield",
+    "web3"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.21.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
